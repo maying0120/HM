@@ -1,0 +1,198 @@
+hr {
+    border-top: #d7ac41 solid 1px;
+    width: 62px;
+}
+
+h2 {
+    margin-bottom: 40px; 
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+header .content {
+    padding: 35px 0 15px 60px;
+}
+
+header img {
+    width: 443px;
+    height: 80px;
+}
+
+header li {
+    display: block;
+    margin-right: 30px;
+    padding-top: 26px;
+}
+
+header a {
+    color: #6c6c6c;
+    font-size: 14px;
+}
+
+header a:hover {
+    color: #d7ac41;
+    text-decoration: unset;
+}
+
+#blockone {
+    padding-top: 335px;
+    height: 750px;
+    background: url(../img/top-banner.jpg) fixed;
+    background-size: cover;
+}
+
+#blockone h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#blockone p {
+    color: white;
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#blocktwo {
+    padding: 100px 335px;
+    background: url(../img/about-bg.jpg) fixed;
+    background-size: cover;
+}
+
+#blocktwo img {
+    margin-bottom: 40px;
+}
+
+#blocktwo p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62;
+}
+
+#blocktwo p span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#blocktwo hr {
+    margin: 40px auto;
+}
+
+#blockthree {
+    padding: 75px 0 100px 0;
+    background: url(../img/service-bg.jpg) fixed;
+    background-size: cover;
+}
+
+#blockthree hr {
+    margin: 25px auto;
+}
+
+#blockthree .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 30px 0;
+    padding: 0;
+    width: 270px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#blockthree p {
+    margin: 0;
+    font-size: 16px;
+    color: #6c6c6c;
+}
+
+#blockfour {
+    padding: 75px 0 100px 0;
+}
+
+#blockfour .member {
+    margin-left: 30px;
+}
+
+#blockfour .info {
+    padding: 60px 30px 0 30px;
+    background-color: #f6f7f8;
+}
+
+#blockfour h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#blockfour .title {
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#blockfour .skill {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#blockfour .email {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#blockfour .more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    border: #d7ac41 solid 1px;
+}
+
+#blockfour .more a {
+    margin: 1.06rem;
+    color: #d7ac41;
+    text-decoration: unset;
+}
+
+#blockfive {
+    padding: 75px 0 100px 135px;
+    background: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 437px;
+    left: 0;
+    top: 0px;
+    overflow: hidden;
+display: block;
+}
+
+#blockfive hr {
+    margin: 25px 0;
+}
+
+#blockfive p {
+    margin: 0 16px 20px 0;
+    font-size: 16px;
+}
+
+footer {
+    height: 48px;
+    padding: 16px;
+    background-color: #2b2c2c;
+}
+
+footer p {
+    font-size: 16px;
+    color: white;
+}
